@@ -19,6 +19,7 @@ Code below shows default YII2 controller for site.
 
 SiteController extends Controller
 {
+
    public $hosts;
    public $views;
    
