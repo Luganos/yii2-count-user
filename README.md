@@ -3,7 +3,7 @@
 
 Installation
  
-Extension may be installed by taking the following two simple steps:
+Extension may be installed by taking the following simple steps:
 
  1. add "lugano/yii2-count-user": "*" to the require section of your composer.json file.
  2. run composer install to install the specified extensions.
@@ -24,7 +24,7 @@ SiteController extends Controller
    
    public function actionIndex(){
       
-	  self::countUser();
+      self::countUser();
       return $this->render('index');
    }
    
