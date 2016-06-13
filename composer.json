@@ -1,0 +1,19 @@
+{
+    "name": "lugano/yii2-count-user",
+    "description": "Count views and users on site.",
+    "version": "1.0.1",
+    "keywords": ["yii2", "count", "views", "users"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Sergey Ponomarev",
+            "email": "ponomarev.link@gmail.com"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "lugano\\userCounter\\": ""
+        }
+    }
+}
