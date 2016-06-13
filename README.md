@@ -21,6 +21,7 @@ SiteController extends Controller
 {
 
    public $hosts;
+   
    public $views;
    
    public function actionIndex(){
